@@ -1,0 +1,165 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Day 1:
+======
+
+cd /Users/puneetkumar/Desktop/Puneet/python_practice
+
+-- (1)  Hello World
+
+puneetkumar@Puneets-Laptop python_practice % python3 hello_world.py
+Hello Python world!
+
+-- (2)  Strings and changing case
+
+print(name.title())
+print(name.upper())
+print(name.lower())
+
+
+
+-- (3)  Combining or Concatenating Strings 
+
+full_name=first_name +" "+ last_name
+print(full_name)
+print("Hello, "+full_name.title()+" !")
+
+
+
+-- (4)  use tab and new line in  Strings
+
+print("Languages:\n\t\tPython\n\t\tC\n\t\tJava")
+
+
+-- (5)  Stripping Whitespace
+
+	rstrip() -- > for right side space 
+	lstrip() -- > for left side space	
+	strip()  -- > for both side space
+
+
+>>> favourite_language="Python"
+>>> favourite_language
+'Python'
+
+>>> favourite_language="Python "
+>>> favourite_language
+'Python '
+>>> favourite_language.rstrip()
+'Python'
+>>> favourite_language.strip()
+'Python'
+
+name=" albert einstein "
+>>>message=name.title().strip() + ' was a smart man.'
+print(message)
+
+
+print(nostarch_url.removeprefix('https://'))
+
+print(filename.removesuffix('.txt'))
+
+#combine tabs and newlines in a single string.
+print("Languages:\n\tPython\n\tC\n\tJava")
+
+-- (6) Numbers
+-- practice
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Day 2:
+======
+
+-- (1) List and accessing elements in a List
+-- (2) Print simple line using list elements
+
+-- practice
+-- (3) append elements in a list
+-- (4) add elements at any position in list
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Day 3:
+======
+-- practice
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Day 4:
+======
+-- oraganizing_list : sort() method
+					: reverse sort using sort(reverse=True) 
+                    : sorted() function  (temporary)   |   sorted(cars)    | reverse()
+                    : Length of List. | len(cars)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Day 5:
+======
+-- practice
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Day 6:
+======
+-- for loop in python
+-- practice
+-- even numbers
+-- square numbers
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Day 7:
+======
+-- practice
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Day 8:
+======
+-- slicing a list
+-- reverse elements in list and slice 
+-- copying a list
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Day 9:
+======
+-- practice 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Day 10:
+======
+-- Tuple >> immutable (fix(dont change))
+
+-- practice 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Day 11:
+======
+-- IF conditions
+	-- capital and small case check in if conditions
+	-- ignoring case while checking using lower function
+	-- checking for inequality
+	-- numerical comparison
+
+-- Checking Multiple conditions
+	-- using 'and' to check multiple conditions 
+	-- using 'or' to check multiple conditions 
+-- checking value is in list.
+-- checking value is not in list.
+	
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Day 12:
+======
+-- practice 5.1
+-- practice 5.2
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Day 13:
+======
+-- if-else Statements
+-- The if-elif-else Chain
+-- Multiple elif Blocks
+-- Omitting the else Block
+-- Testing Multiple Conditions
+-- practice 5.3
+
+
+
+
+
+
+-- projects
+https://www.geeksforgeeks.org/python-projects-beginner-to-advanced/?ref=previous_article
+https://docs.google.com/spreadsheets/d/10VveNYdyC6R_biYS2k6z2LyB__Nfgqka2JOOfj4nZS8/edit?pli=1&gid=0#gid=0
